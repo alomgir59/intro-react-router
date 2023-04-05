@@ -7,7 +7,7 @@ const Friend = ({ friend }) => {
   const { name, id, phone, email } = friend;
   const navigate = useNavigate();
   const handleNavigation = () => {
-    navigate(`/post/${id}`);
+    navigate(`/friend/${id}`);
   };
   return (
     <div className="friend">
@@ -20,7 +20,6 @@ const Friend = ({ friend }) => {
         <Link to={`/friend/${id}`}>
           <button className="btn">Show me details</button>
           <button className="handleBtn" onClick={handleNavigation}>
-            {" "}
             Button Handler
           </button>
         </Link>

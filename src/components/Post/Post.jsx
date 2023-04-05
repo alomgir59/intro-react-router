@@ -4,7 +4,7 @@ import "./Post.css";
 
 const Post = ({ post }) => {
   const { id, title, body } = post;
-  console.log(post);
+  // console.log(post);
   return (
     <div className="post">
       <h4>ID:{id}</h4>
