@@ -6,3 +6,9 @@
   background-color: greenyellow;
   text-align: center;
 }
+.btn {
+  margin: mr-8px;
+}
+.handleBtn {
+  margin: mr-8px;
+}
