@@ -63,6 +63,10 @@ const router = createBrowserRouter([
         path: "contact",
         element: <Contact></Contact>,
       },
+      {
+        path: "*",
+        element: <div>4440444 Data Not Fund</div>,
+      },
     ],
   },
 ]);
